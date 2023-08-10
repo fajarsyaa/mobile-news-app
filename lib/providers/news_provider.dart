@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:jars_news_app/models/news_model.dart';
 
 class NewsProvider with ChangeNotifier {
-  final apiKey = "97a2a82b43fc457081f8b36087930252";
+  final apiKey = "87d71ee025c74b4b9fd72309ea0cc79a";
   List<NewsModel> _news = [];  
   List<NewsModel> _searchResults = [];
 
